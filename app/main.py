@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from app.models import UserData
-from app.recommender import generate_recommendations
+from app.recommendation import generate_recommendations
 
 app = FastAPI()
 
